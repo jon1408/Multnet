@@ -1,0 +1,49 @@
+:root {
+  --cor-primaria: #6f3cb4;
+  --cor-secundaria: #eb61df;
+  --letra-branca: #fef8fc;
+  --letra-preta: #000;
+}
+
+.bg-btn1 {
+  background-color: var(--cor-secundaria);
+}
+
+.justify-left {
+  justify-content: left;
+  margin-left: 50px;
+}
+
+.text-white-600 {
+  color: var(--letra-branca);
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.p-4 {
+  border: 1px solid var(--cor-secundaria);
+  border-radius: 0 0 10px 10px;
+  background-color: #eb61df;
+}
+
+.flex {
+  justify-content: space-between;
+}
+
+.text-xp {
+  font-size: 1.2rem;
+  color: var(--letra-branca);
+}
+
+.fa-bitcoin-sign {
+  padding-right: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .justify-left {
+    justify-content: center;
+    margin: 0;
+  }
+}
