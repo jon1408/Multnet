@@ -1,6 +1,6 @@
 :root {
-  --cor-primaria: #6f3cb4;
-  --cor-secundaria: #eb61df;
+  --cor-primaria: #6BBCE2;
+  --cor-secundaria: #3C558D;
   --letra-branca: #fef8fc;
   --letra-preta: #000;
 }
@@ -22,11 +22,19 @@
   justify-content: space-evenly;
 }
 
-.p-4 {
+.text-gray-800-alt{
+  font: .875rem 'Poppins', sans-serif;
+}
+
+.text-nunito{
+  font: .775rem 'Nunito', sans-serif;
+}
+
+/*.p-4 {
   border: 1px solid var(--cor-secundaria);
   border-radius: 0 0 10px 10px;
   background-color: #eb61df;
-}
+}*/
 
 .flex {
   justify-content: space-between;
@@ -37,9 +45,16 @@
   color: var(--letra-branca);
 }
 
-.fa-bitcoin-sign {
-  padding-right: 0.25rem;
+.px-6{
+  padding-top: 1.5rem;
 }
+
+.top-80{
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 5rem;
+}
+
 
 @media screen and (max-width: 768px) {
   .justify-left {
