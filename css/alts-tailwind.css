@@ -65,9 +65,41 @@
 .mb-8{
   text-align: center;
 }
-@media screen and (max-width: 768px) {
+
+.bg-btn-blue{
+  background-color: #3C558D;
+}
+
+.bg-btn-white{
+  background-color: #fef8fc;
+  color: #3C558D;
+}
+
+.text-base-alt{
+  font-size: 2rem;
+  color: #fef8fc;
+}
+
+.py-4-alt{
+  padding: 2rem 0;
+}
+
+.md:mr-10-alt{
+  margin: 0;
+}
+
+.hover:bg-blue-700:hover{
+  background-color: #3C558D;
+  color: #fef8fc;
+}
+
+@media screen and (min-width: 768px) {
   .justify-left {
     justify-content: center;
     margin: 0;
   }
+  .text-base{
+    font-size: 12px;
+  }
+
 }

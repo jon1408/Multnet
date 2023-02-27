@@ -125,6 +125,254 @@ a {
   width: 100%;
 }
 
+.prices{
+  text-align: center;
+  font: 2rem 'Poppins', sans-serif;
+  padding:4rem 0;
+  width: 100%;
+}
+.prices h1{
+  font-size: 2rem;
+}
+
+.prices p{
+  font-size: 4rem;
+}
+
+.container-cards{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.container-cards h1{
+  font-weight: bolder;
+}
+
+.cards{
+  border: 1px solid black;
+  width: 360px;
+  height: 480px;
+  border-radius: 10px;
+  background-color: #fef8fc;
+  box-shadow: #000;
+  filter: drop-shadow(1px 1px 10px gray);
+}
+
+.cards h1{
+  font-size: 50px;
+}
+
+.cards-pop{
+  border: 1px solid black;
+  width: 360px;
+  height: 480px;
+  border-radius: 10px;
+  background-color: var(--cor-primaria);
+  box-shadow: #000;
+  filter: drop-shadow(1px 1px 10px gray);
+}
+
+.cards-pop h1{
+  font-size: 50px;
+}
+
+.cards h3{
+  color: var(--cor-primaria);
+}
+
+.cards-pop h3{
+  color: var(--letra-branca);
+}
+
+.cards h3, .cards-pop h3{
+  font-size: 18px;
+  padding-top: 2rem;
+}
+
+.cards>.old-price{
+  color: gray;
+  font-size: 20px;
+}
+
+.cards-pop>.old-price{
+  color: var(--letra-branca);
+  font-size: 20px;
+}
+
+.cards>.price{
+  color: var(--cor-secundaria);
+}
+
+.cards>.price>span.real{
+    align-self: flex-end;
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+
+.cards>.price>span.valor{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: .85em;
+}
+
+.cards>.price>span.mes{
+    font-size: 22px;
+    font-weight: 300;
+    align-self: flex-end;
+}
+
+.cards-pop>.price{
+  color: var(--letra-branca);
+}
+
+.cards-pop>.price>span.real{
+  align-self: flex-end;
+  font-size: 15px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+
+.cards-pop>.price>span.valor{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: .85em;
+}
+
+.cards-pop>.price>span.mes{
+  font-size: 22px;
+  font-weight: 300;
+  align-self: flex-end;
+}
+
+.cards>hr.line{
+  border-top-width: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cards-pop>hr.line{
+  border-top-width: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cards>.items>hr.line{
+  border-top-width: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cards>.items>li{
+  padding: 10px 0;
+}
+
+.cards-pop>.items>hr.line{
+  border-top-width: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cards-pop>.items>li{
+  padding: 10px 0;
+}
+
+.features{
+  padding-bottom: 9rem;
+}
+
+.txt-features{
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.txt-features h2{
+  font: 3.2rem 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.txt-features h3{
+  font: 2.2rem 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.cards-features{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards-feat{
+  border: 1px solid var(--cor-secundaria);
+  width: 370px;
+  height: 215px;
+  padding: 1.6rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fef8fc;
+  box-shadow: #000;
+  filter: drop-shadow(1px 1px 10px gray);
+}
+
+.fa-wifi{
+  font-size: 5rem;
+}
+
+.fa-house-signal{
+  font-size: 5rem;
+}
+
+.fi-sr-rocket-lunch{
+  font-size: 3rem;
+}
+
+.cards-feat h4{
+  font: 2.2rem 'Poppins', sans-serif;
+}
+
+.cards-feat p{
+  font: 1.8rem 'Poppins', sans-serif;
+  padding-top: 1.6rem;
+}
+
+.comentarios{
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer{
+  background-color: #000;
+  padding: 4rem 0;
+}
+
+.container-footer{
+  display: flex;
+  justify-content: space-evenly;
+  font: 2rem 'Poppins', sans-serif;
+  color: var(--letra-branca);
+  padding-bottom: 4rem;
+}
+
+.list-1 h1, .list-2 h1, .list-3 h1{
+  color: var(--cor-primaria);
+  /*text-decoration: 2px underline;*/
+}
+
+.list-1 h2, .list-2 h2, .list-3 h2{
+  font-size: 1.6rem;
+}
+
+.img-footer img{
+  width: 170px;
+  height: auto;
+}
+
+.copyright p{
+  font: 1.6rem 'Poppins', sans-serif;
+  color: var(--letra-branca);
+  text-align: center;
+}
+
 /*.nav-logo {
   display: flex;
   font-size: 2rem;
@@ -190,4 +438,23 @@ a {
     padding-top: 19px;
   }
 
+  .cards-features{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .cards-feat{
+    border: 1px solid var(--cor-secundaria);
+    width: 370px;
+    height: 215px;
+    padding: 1.6rem;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fef8fc;
+    box-shadow: #000;
+    filter: drop-shadow(1px 1px 10px gray);
+  }
 }
